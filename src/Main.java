@@ -31,7 +31,25 @@ public class Main {
         System.out.println();
         choChang.printDescription();
         choChang.describe();
+        // Сравнение учеников Гриффиндора
+        harryPotter.compareStudents(hermioneGranger);
+        hermioneGranger.compareStudents(ronWeasley);
 
+        // Сравнение учеников Слизерин
+        dracoMalfoy.compareStudents(gregoryGoyle);
+        gregoryGoyle.compareStudents(grahamMontague);
+
+        // Сравнение учеников Пуффендуй
+        zachariasSmith.compareStudents(cedricDiggory);
+        cedricDiggory.compareStudents(justinFinchFletchley);
+
+        // Сравнение учеников Когтеврана
+        choChang.compareStudents(padmaPatil);
+        padmaPatil.compareStudents(marcusBelby);
+
+        Hogwarts.compareMagicAndTransgression(harryPotter, justinFinchFletchley);
+
+    }
 
 
 }
